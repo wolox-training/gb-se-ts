@@ -1,4 +1,5 @@
 export const config = {
+    allScriptsTimeout: 5000,
     baseURL: process.env.baseURL,
     adminUser: {
         email: process.env.adminUser,

@@ -6,8 +6,8 @@ import { USERS } from '../constants/modules';
 import { GetApiPathFor } from '../questions';
 
     
-export const GetPurchasedBooks = (): Task =>
-    Task.where(`#actor get purchased books from ${GetApiPathFor[USERS].toListPurchased()}`,
+export const GetPurchasedAlbums = (): Task =>
+    Task.where(`#actor get purchased albums from ${GetApiPathFor[USERS].toListPurchased()}`,
         // ChangeApiConfig.setHeader('Authorization', Note.of('token')),
         Log.the(GetApiPathFor[USERS].toListPurchased()),
         Send.a(GetRequest.to(GetApiPathFor[USERS].toListPurchased())),

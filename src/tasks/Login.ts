@@ -12,7 +12,7 @@ export const Login = {
             Send.a(PostRequest.to(LOGIN_PATH).with(config[type])),
             Ensure.that(LastResponse.status(), equals(200)),
             Ensure.that(LastResponse.body<LoginResponse>(), hasAValidSchema(require('../schemas/login.schema.json'))),
-            // TakeNote.of(LastResponse.header('authorization')).as('token'),
+            TakeNote.of(LastResponse.header('authorization')).as('token'),
             ChangeApiConfig.setHeader('Authorization', LastResponse.header('authorization')),
             TakeNote.of(Transform.the(LastResponse.body<LoginResponse>(), body => body.user_id)).as('user_id')
         )

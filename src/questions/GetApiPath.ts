@@ -28,7 +28,7 @@ export const GetApiPathFor: Dic = {
     },
     [USERS]: {
         toListPurchased: (): Question<Promise<string>> =>
-            Question.about(`purchased books routes by users`, actor =>
+            Question.about(`purchased albums routes by users`, actor =>
                 actor.answer(Note.of('user_id')).then((user_id) => `/users/${user_id}/albums`))
     }
         // toPurchaseBy,

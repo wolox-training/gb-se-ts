@@ -2,7 +2,7 @@ export interface LoginResponse{
     user_id: number;
 }
 
-export interface PurchasedBooksResponse{
+export interface PurchasedAlbumsResponse{
     album: {
         user_id: number;
         id: number;
@@ -16,4 +16,8 @@ export interface AlbumsResponse{
     user_id: number;
     id: number;
     title: string;
+}
+
+export interface RegisterResponse {
+    user_id: number
 }
