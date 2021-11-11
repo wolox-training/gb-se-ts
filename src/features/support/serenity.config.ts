@@ -2,7 +2,7 @@ import { Before, BeforeAll, defineParameterType } from '@cucumber/cucumber';
 import { ConsoleReporter } from '@serenity-js/console-reporter';
 import { actorCalled, actorInTheSpotlight, ArtifactArchiver, configure, engage } from '@serenity-js/core';
 
-// import { SerenityBDDReporter } from '@serenity-js/serenity-bdd';
+import { SerenityBDDReporter } from '@serenity-js/serenity-bdd';
 import { Actors } from '../..';
 
 /**
@@ -15,8 +15,8 @@ BeforeAll(function () {
     configure({
         crew: [
             ConsoleReporter.withDefaultColourSupport(),
-            // new SerenityBDDReporter(),
-            ArtifactArchiver.storingArtifactsAt(__dirname, '../../target/site/serenity'),
+            new SerenityBDDReporter(),
+            ArtifactArchiver.storingArtifactsAt(__dirname, '../../../target/site/serenity'),
         ]
     });
 });
