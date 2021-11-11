@@ -1,9 +1,10 @@
 import { Question } from "@serenity-js/core";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import Fakerator from 'fakerator';
 
 
-var fakerator = Fakerator("es-AR");
+const fakerator = Fakerator("es-AR");
 
 const getData = () => {
     const res =  {

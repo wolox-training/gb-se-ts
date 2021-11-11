@@ -3,7 +3,7 @@ import { TakeNote, Task, Transform } from '@serenity-js/core';
 import { ChangeApiConfig, LastResponse, PostRequest, Send } from '@serenity-js/rest';
 import { LOGIN_PATH } from '../constants/routes';
 import { LoginResponse } from '../@types';
-import { config } from '../config';
+import {config} from '../config';
 import { hasAValidSchema } from '../expectations/hasAValidSchema'
 
 export const Login = {

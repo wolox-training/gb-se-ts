@@ -4,14 +4,11 @@ import { Actor, Note, TakeNote, Transform } from '@serenity-js/core';
 import { LastResponse } from '@serenity-js/rest';
 import { AlbumsResponse, PurchasedAlbumsResponse } from '../../@types';
 import { BuysAlbum, GetAlbums, GetPurchasedAlbums } from '../../tasks';
-import World from '../../world'
-
 
 When('{pronoun} requests the purchased albums', (actor: Actor) =>
  actor.attemptsTo(
         GetPurchasedAlbums(),
         TakeNote.of(Transform.the(LastResponse.body<PurchasedAlbumsResponse>(), body => {
-            World.data = {resposePurcB: body};
            return body
         })).as('boyPurcheasedAlbums')
        // Transform.the(LastResponse.body<any>(), (body:any) => {World.data = body})

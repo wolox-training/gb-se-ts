@@ -2,8 +2,8 @@ import { When, Then, Given } from '@cucumber/cucumber';
 import { Actor } from '@serenity-js/core';
 import { LastResponse } from '@serenity-js/rest';
 import { Ensure, equals, not, property } from '@serenity-js/assertions';
-import { LoginResponse } from '../../@types';
-import { Login } from '../../tasks';
+import {LoginResponse} from '../../@types';
+import {Login} from '../../tasks';
 
 When('{actor} log in the application as an {}', (actor: Actor, type: string) =>
     actor.attemptsTo(

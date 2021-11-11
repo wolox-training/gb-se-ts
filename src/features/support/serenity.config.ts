@@ -11,7 +11,7 @@ import { Actors } from '../..';
  *
  * @see https://serenity-js.org/handbook/reporting/index.html
  */
-BeforeAll(function () {
+BeforeAll(async function () {
     configure({
         crew: [
             ConsoleReporter.withDefaultColourSupport(),

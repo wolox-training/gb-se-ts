@@ -1,2 +1,2 @@
-export const ALBUMS: string = 'albums';
-export const USERS: string = 'users';
+export const ALBUMS = 'albums';
+export const USERS = 'users';
