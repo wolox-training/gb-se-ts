@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Purchease albums","Purchease album without session","COMPROMISED","2021-11-11T11:35:51.92-03:00[America/Argentina/Buenos_Aires]","0.0","2.09"
+"Purchease albums","Get Purchased albums","COMPROMISED","2021-11-11T11:35:54.016-03:00[America/Argentina/Buenos_Aires]","0.0","4.16"
