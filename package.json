@@ -8,7 +8,7 @@
     "postinstall": "npx serenity-bdd update",
     "clean": "rimraf target",
     "test": "failsafe clean test:execute test:report",
-    "test:execute-prd": "cucumber-js ./dist/features",
+    "test:execute-prd": "cucumber-js ./dist/src/features",
     "test:execute": "cucumber-js ./src/features",
     "test:report": "serenity-bdd run --features ./src/features",
     "lint": "eslint --ext ts --config .eslintrc .",
