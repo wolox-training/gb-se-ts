@@ -5,12 +5,12 @@ import { LastResponse } from '@serenity-js/rest';
 import { AlbumsResponse, PurchasedAlbumsResponse } from '../../@types';
 import { BuysAlbum, GetAlbums, GetPurchasedAlbums } from '../../tasks';
 
-When('{pronoun} requests the purchased albums', (actor: Actor) =>
+When('{pronoun} requests the purchased books', (actor: Actor) =>
  actor.attemptsTo(
         GetPurchasedAlbums(),
         TakeNote.of(Transform.the(LastResponse.body<PurchasedAlbumsResponse>(), body => {
            return body
-        })).as('boyPurcheasedAlbums')
+        })).as('boyPurcheasedBooks')
        // Transform.the(LastResponse.body<any>(), (body:any) => {World.data = body})
     ));
 
@@ -27,7 +27,7 @@ When('{actor} buys some album without being logged', (actor: Actor) =>
     ));
 
 
-Then('{pronoun} should see a list with all his purchased albums', (actor: Actor) => 
+Then('{pronoun} should see a list with all his purchased books', (actor: Actor) => 
      actor.attemptsTo(
         //Log.the(World.data),
         Ensure.that(            

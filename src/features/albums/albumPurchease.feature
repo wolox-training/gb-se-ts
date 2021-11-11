@@ -10,5 +10,5 @@ Scenario: Purchease album without session
 Scenario: Get Purchased albums
     Given Carlos is logged in the application as an adminUser
     When he buys some album of the list of availables
-    Then he should see a list with all his purchased album
+    Then he should see a list with all his purchased books
     #And he should see the rest of his purchased books
