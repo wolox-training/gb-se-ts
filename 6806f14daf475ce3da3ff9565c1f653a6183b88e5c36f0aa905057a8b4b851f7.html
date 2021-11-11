@@ -154,9 +154,9 @@
     <div id="contenttop">
         <div class="middlebg">
         <span class="breadcrumbs"><a href="index.html">Home</a>
-                > Feature 
+                > Capability 
                 > <span
-                    class="truncate-60">Register New User (Passing Tests)</span>
+                    class="truncate-60">Albums (Unsuccessful Tests)</span>
         </span>
         </div>
         <div class="rightbg"></div>
@@ -188,7 +188,7 @@
         <div class="middlb">
             <div class="table">
 
-                <h2><i class='fa fa-tags'></i> Feature: Register New User (Passing Tests)</h2>
+                <h2><i class='fa fa-tags'></i> Capability: Albums (Unsuccessful Tests)</h2>
                 <table class='overview'>
                     <tr>
                         <td width="375px" valign="top">
@@ -199,7 +199,7 @@
                                     across 1 scenario
 
                                      |
-                                        <a href="307da58e92ca986201dea758bb7da67041213a4159983504724aafe040a6d5f4.csv" title="Download CSV"> <i class="fa fa-download"
+                                        <a href="836fdb892fdbe7e383dc6663f646457050fedff7f100fd221f2ac8cf904a0c78.csv" title="Download CSV"> <i class="fa fa-download"
                                                                                         title="Download CSV"></i></a>
 
                                     <p class="report-info"><i class="fas fa-info-circle"></i> Note that results include
@@ -235,10 +235,10 @@
                                                             </div>
                                                             <script>
 
-                                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+                                                                var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '100%', ' ', ' ', ' ', ' ', ' '];
                                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 1}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                                 // as you saw in the previous example
@@ -291,12 +291,11 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="a81dc4455af01becf7a125d520fbe84a5969f43ca1ff7642dfd22f0795f7c37f.html"><i
-                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
+                                                                    <td class="aggregate-result-count"><i
+                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
                                                                     </td>
-                                                                <td class="automated-stats">1</td>
-                                                                <td class="automated-stats">100%</td>
+                                                                <td class="automated-stats">0</td>
+                                                                <td class="automated-stats"> </td>
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -320,17 +319,18 @@
                                                                 <td class="automated-stats"> </td>
                                                             </tr>
                                                             <tr>
-                                                                            <td colspan="3"><i
-                                                                                class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                            <td colspan="3"><a
+                                                                                    href="6806f14daf475ce3da3ff9565c1f653a6183b88e5c36f0aa905057a8b4b851f7.html"><i
+                                                                                    class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                             </td>
                                                             </tr>
                                                             <tr>
-                                                                <td class="aggregate-result-count indented-error-category">
-                                                                    <i
-                                                                            class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
-                                                                </td>
-                                                                <td class="automated-stats">0</td>
-                                                                <td class="automated-stats"> </td>
+                                                                    <td class="aggregate-result-count indented-error-category">
+                                                                        <a href="f60207af239f957107a5a89c2aece0ed1eae6f99f3880b1d4993610247dc8183.html"><i
+                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
+                                                                    </td>
+                                                                <td class="automated-stats">1</td>
+                                                                <td class="automated-stats">100%</td>
                                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -356,6 +356,43 @@
                                                     </div>
                                                 </div>
 
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <h3>Test Failure Overview</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <h4>Most Frequent Failures</h4>
+                                                        <table class="table">
+                                                            <tbody>
+                                                            <tr>
+                                                                <td class="failure-color top-list-title">
+                                                                    <a href="69ad0df1d21fcb63360a86a7222d07cefc93a17e089c06e5521fddd93239aa12.html"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> Assertion error</a>
+                                                                </td>
+                                                                <td><span
+                                                                        class="badge failure-badge">1</span>
+                                                                </td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <h4>Most Unstable Features</h4>
+                                                        <table class="table">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="failure-color top-list-title"><a
+                                                                            href="#">Purchease albums</a>
+                                                                    </td>
+                                                                    <td><span
+                                                                            class="badge failure-badge">100%</span>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
 
                                                 <div class="row">
                                                     <div class="col-sm-12">
@@ -365,10 +402,10 @@
                                                             <div class="card-body">
                                                                 <h5 class="card-title">Capability</h5>
                                                                 <div>
-                                                                    <a href="95055f1775a2c2e616d94fb8635dc8de12f5ee85ea819a420fcc4d1cb2cb2286.html">
+                                                                    <a href="b68e7d632fe3863ae22782775a434c9e6af29d5a18a6ae28ef4772f1e3e8fd04.html">
                                                                         <span class="badge"
-                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
-                                                                                class="fa fa-tag"></i> Users&nbsp;&nbsp;&nbsp;1</span>
+                                                                              style="background-color:#f8001f; margin:1em;padding:4px;"><i
+                                                                                class="fa fa-tag"></i> Albums&nbsp;&nbsp;&nbsp;1</span>
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -377,10 +414,10 @@
                                                             <div class="card-body">
                                                                 <h5 class="card-title">Feature</h5>
                                                                 <div>
-                                                                    <a href="58ad9e341645a4c9ed00ae6b1d6acfc8feb7113614a5379be2e00790afa46fb8.html">
+                                                                    <a href="be19206ab82d7fe9a9253d793c37c7c3b107387249a891279469560faa6f9c72.html">
                                                                         <span class="badge"
-                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
-                                                                                class="fa fa-tag"></i> Users/Register New User&nbsp;&nbsp;&nbsp;1</span>
+                                                                              style="background-color:#f8001f; margin:1em;padding:4px;"><i
+                                                                                class="fa fa-tag"></i> Albums/Purchease Albums&nbsp;&nbsp;&nbsp;1</span>
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -407,18 +444,18 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr class="scenario-result SUCCESS">
+                                                <tr class="scenario-result FAILURE">
                                                     <td>
-                                                            <a href="58ad9e341645a4c9ed00ae6b1d6acfc8feb7113614a5379be2e00790afa46fb8.html">Register new user</a>
+                                                            <a href="be19206ab82d7fe9a9253d793c37c7c3b107387249a891279469560faa6f9c72.html">Purchease albums</a>
                                                     </td>
                                                     <td>
-                                                        <a href="1c1815e53849e7b67ae352849a507a2bab932714a83b4696a47dde24f34c46f2.html">Successfull new user</a>
+                                                        <a href="72b0a9a5c129dded40048c0778d22f2bdb761ebac11b8f7796e16e084d32029c.html">Get Purchased albums</a>
                                                     </td>
-                                                    <td>2</td>
-                                                    <td>20:25:02</td>
-                                                    <td>217ms</td>
-                                                    <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                            style="display:none">SUCCESS</span></td>
+                                                    <td>4</td>
+                                                    <td>20:25:01</td>
+                                                    <td>601ms</td>
+                                                    <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                            style="display:none">FAILURE</span></td>
                                                 </tr>
                                                 </tbody>
                                             </table>
