@@ -220,7 +220,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-11-2021 20:29</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-11-2021 20:36</span>
     <br style="clear:left"/>
 </div>
 
@@ -339,7 +339,7 @@ I want to purchease albums
                                                                             <a style="margin-left:0.5em;padding-right: 1.5em;"
                                                                                href="72b0a9a5c129dded40048c0778d22f2bdb761ebac11b8f7796e16e084d32029c.html"
                                                                                title="View test results">
-                                                                            <a href='##beforetable'><i class='far fa-stop-circle pending-icon ' title='PENDING'></i></a>
+                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                                                             </a>
 
                                                                         
@@ -384,7 +384,7 @@ I want to purchease albums
                                                 </div>
 
                                                 <div class="scenario-docs card" id="57965686e262d3e67eb909304bde34283e8421ba18e2ff5488a55c7f6ae8ee6e">
-                                                    <div class="scenario-docs card-header pending" style="min-height:1.5em;">
+                                                    <div class="scenario-docs card-header failure" style="min-height:1.5em;">
                                                         <div>
                                                             <span class="scenario-heading">
                                                                 <a href="72b0a9a5c129dded40048c0778d22f2bdb761ebac11b8f7796e16e084d32029c.html" title="View test results">Get Purchased albums</a>
@@ -392,7 +392,7 @@ I want to purchease albums
                                                             <span class="scenario-result-icon">
                                                                 
 
-                                                                    <a href='##beforetable'><i class='far fa-stop-circle pending-icon ' title='PENDING'></i></a>
+                                                                    <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                                             </span>
                                                         </div>
                                                     </div>
@@ -400,7 +400,7 @@ I want to purchease albums
                                                             <p>Before</p>
                                                             <p>Given Carlos is logged in the application as an adminUser</p>
                                                             <p>When he buys some album of the list of availables</p>
-                                                            <p>Then he should see a list with all his purchased album</p>
+                                                            <p>Then he should see a list with all his purchased books</p>
                                                         <div class="examples">
                                                         </div>
                                                     </div>
@@ -420,10 +420,10 @@ I want to purchease albums
                                             </div>
                                             <script>
 
-                                                var labels = ['50%', ' ', '50%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+                                                var labels = ['50%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '50%', ' ', ' ', ' ', ' ', ' '];
                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 1}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 1}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                 // as you saw in the previous example
@@ -468,12 +468,11 @@ I want to purchease albums
                                                 <td class="automated-stats">50%</td>
                                             </tr>
                                             <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="17d800d79fd38ab7274985e1323c6255fb12723c3e9eef91d8f31b1a185b97fc.html"><i
-                                                                                class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending</a>
+                                                                    <td class="aggregate-result-count"><i
+                                                                            class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending
                                                                     </td>
-                                                <td class="automated-stats">1</td>
-                                                <td class="automated-stats">50%</td>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
                                             </tr>
                                             <tr>
                                                                 <td class="aggregate-result-count"><i
@@ -490,19 +489,19 @@ I want to purchease albums
                                                 <td class="automated-stats"> </td>
                                             </tr>
                                             <tr>
-                                                                            <td colspan="3"><i
-                                                                                class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                             <td colspan="3"><a href="8531093b01d3c0c48865651f6a933219bb50f1ea3bb725b050d382f5282965da.html"><i
+                                                                                    class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                             </td>
 
                                             </tr>
 
                                             <tr>
-                                                                <td class="aggregate-result-count indented-error-category">
-                                                                    <i
-                                                                            class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
-                                                                </td>
-                                                <td class="automated-stats">0</td>
-                                                <td class="automated-stats"> </td>
+                                                                    <td class="aggregate-result-count indented-error-category">
+                                                                        <a href="0c309c1d50c6ba2004bf6eb5b454cf6e8b9e84f003a6d2b93285a89972a58e19.html"><i
+                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
+                                                                    </td>
+                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">50%</td>
                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -542,11 +541,11 @@ I want to purchease albums
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td>761ms</td>
-                                                        <td>196ms</td>
-                                                        <td>194ms</td>
-                                                        <td>567ms</td>
-                                                        <td>380ms</td>
+                                                        <td>1s</td>
+                                                        <td>488ms</td>
+                                                        <td>486ms</td>
+                                                        <td>858ms</td>
+                                                        <td>672ms</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -574,23 +573,23 @@ I want to purchease albums
                                                             <a href="ca720eaffa910de1dc6bc17207adda2fe6be47209dc7d235e18de38477412f2e.html">Purchease album without session</a>
                                                     </td>
                                                     <td>3</td>
-                                                    <td>20:29:20</td>
-                                                    <td>194ms</td>
+                                                    <td>20:36:11</td>
+                                                    <td>486ms</td>
                                                     <td>
                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                 style="display:none">SUCCESS</span>
                                                     </td>
                                                 </tr>
-                                                <tr class="scenario-result PENDING">
+                                                <tr class="scenario-result FAILURE">
                                                     <td>
                                                             <a href="72b0a9a5c129dded40048c0778d22f2bdb761ebac11b8f7796e16e084d32029c.html">Get Purchased albums</a>
                                                     </td>
                                                     <td>4</td>
-                                                    <td>20:29:21</td>
-                                                    <td>567ms</td>
+                                                    <td>20:36:11</td>
+                                                    <td>858ms</td>
                                                     <td>
-                                                            <a href='##beforetable'><i class='far fa-stop-circle pending-icon ' title='PENDING'></i></a> <span
-                                                                style="display:none">PENDING</span>
+                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                style="display:none">FAILURE</span>
                                                     </td>
                                                 </tr>
                                                 </tbody>
