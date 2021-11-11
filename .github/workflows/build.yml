@@ -23,6 +23,11 @@ jobs:
       - run: npm test
         env:
           CI: true
+          baseURL: ${{secrets.baseUrl}}
+          adminUser: ${{secrets.adminUser}}
+          adminPass: ${{secrets.adminPass}}
+          regularUser: ${{secrets.regularUser}} 
+          regularPass: ${{secrets.regularPass}}
       - name: GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
         if: matrix.node-version == '14.x' && github.ref == 'refs/heads/master'
