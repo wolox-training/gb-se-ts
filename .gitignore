@@ -16,7 +16,6 @@ apps/
 *.log
 chromeDriver
 
-package-lock.json
 
 #reports
 /reports
