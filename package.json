@@ -10,7 +10,7 @@
     "test": "failsafe clean test:execute test:report",
     "test:execute-prd": "cucumber-js ./dist/features",
     "test:execute": "cucumber-js ./src/features",
-    "test:report": "serenity-bdd run --features ./src/features --source ./target/site/serenity",
+    "test:report": "serenity-bdd run --features ./src/features",
     "lint": "eslint --ext ts --config .eslintrc .",
     "lint-fix": "npm run lint -- --fix",
     "test:open-report": "open ./target/site/serenity/index.html"
