@@ -152,7 +152,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-11-2021 11:35</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-11-2021 14:58</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-chain-broken compromised-icon fa-2x' title='COMPROMISED'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="compromised-color">
+                                <span class="success-color">
                                     Purchease album without session
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -252,13 +252,13 @@
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
                         <td width="100"><span class="top-level-step">0s</span></td>
                     </tr>
-                    <tr class="test-COMPROMISED">
+                    <tr class="test-SUCCESS">
 
                         <td width="50" class="step-icon">
                             <a name="1"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1 compromised-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection1 success-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -276,20 +276,20 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">COMPROMISED</span></td>
-                        <td width="100"><span class="top-level-step">2.07s</span></td>
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">0.65s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
                                 <table id="stepSection1" class="step-table-nested" style="display:none;">
 
-                    <tr class="test-COMPROMISED">
+                    <tr class="test-SUCCESS">
 
                         <td width="70" class="step-icon">
                             <a name="1-0"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1-0 compromised-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection1-0 success-icon"
                                        style="margin-left: 40px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -307,19 +307,19 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-step">COMPROMISED</span></td>
-                        <td width="100"><span class="nested-step">2.06s</span></td>
+                        <td width="130"><span class="nested-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-step">0.39s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
                                 <table id="stepSection1-0" class="step-table-nested" style="display:none;">
 
-                    <tr class="test-COMPROMISED">
+                    <tr class="test-SUCCESS">
 
                         <td width="90" class="step-icon">
                             <a name="1-0-0"></a>
                                 <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-chain-broken compromised-icon ' title='COMPROMISED'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
@@ -329,92 +329,157 @@
                                                 Carlos sends a GET request to '/users/999/albums'
                                         </span>
                                 <span class="evidence">
+                                        <span class="piece-of-evidence">
+                    <span>
+                        <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
+                                data-target="#restModal-REST-4">
+                            REST Query
+                        </button>
+                    </span>
+                    <!-- Modal -->
+                    <div class="rest-query-details">
+                        <div class="collapse multi-collapse" id="restModal-REST-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4>Response</h4>
+                                        <p>URL: https://nodejs-qa-training.herokuapp.com/users/999/albums</p>
+                                        <p>Status code: 401</p>
+                                        <h4>Request Headers</h4>
+                                        <pre>Accept: application/json,application/xml<br>User-Agent: axios/0.21.4</pre>
+                                        <h4>Response Headers</h4>
+                                        <pre>server: Cowboy<br>connection: close<br>x-powered-by: Express<br>content-type: application/json; charset=utf-8<br>content-length: 109<br>etag: W/&quot;6d-23Vq5A2mKGMktk47IEvRbaFiPaI&quot;<br>date: Thu, 11 Nov 2021 14:58:45 GMT<br>via: 1.1 vegur</pre>
+                                    <h4>Response Body</h4>
+                                        <pre>{<br>    &quot;errors&quot;: [<br>        {<br>            &quot;code&quot;: &quot;authentication_error&quot;,<br>            &quot;message&quot;: &quot;Invalid token&quot;<br>        }<br>    ],<br>    &quot;timestamp&quot;: &quot;2021-11-11T14:58:45.124Z&quot;<br>}</pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        </span>
                                 </span>
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">COMPROMISED</span></td>
-                        <td width="100"><span class="nested-group-step">2.04s</span></td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0.37s</span></td>
                     </tr>
-                        <tr class="test-COMPROMISED">
-                            <td width="40">&nbsp</td>
-                            <td width="%" colspan="3" class="error-message-cell">
+                    <tr class="test-SUCCESS">
 
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">TestCompromisedError: The request has timed out</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-4""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-4">
-            <div class="card">
-                <div class="card-header">
-                    <h4>TestCompromisedError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>.undefined()(/Users/gabriel.bori/Documents/automation/apiAutomation/gb-se-ts/node_modules/@serenity-js/rest/src/screenplay/abilities/CallAnApi.ts:198)<br />.processTicksAndRejections()(node:internal/process/task_queues:96)<br />.createError()(/Users/gabriel.bori/Documents/automation/apiAutomation/gb-se-ts/node_modules/axios/lib/core/createError.js:16)<br />.RedirectableRequest.handleRequestTimeout()(/Users/gabriel.bori/Documents/automation/apiAutomation/gb-se-ts/node_modules/axios/lib/adapters/http.js:303)<br />.RedirectableRequest.emit()(node:events:390)<br />.RedirectableRequest.emit()(node:domain:475)<br />.Timeout.<anonymous>()(/Users/gabriel.bori/Documents/automation/apiAutomation/gb-se-ts/node_modules/follow-redirects/index.js:164)<br />.listOnTimeout()(node:internal/timers:557)<br />.processTimers()(node:internal/timers:500)<br /></pre>
-                    </div>
-
-                    <h4>
-                        Caused by: Error
-                    </h4>
-                    <div>
-                            <pre>timeout of 2000ms exceeded</pre>
-                        <pre>.createError()(/Users/gabriel.bori/Documents/automation/apiAutomation/gb-se-ts/node_modules/axios/lib/core/createError.js :16)<br />.RedirectableRequest.handleRequestTimeout()(/Users/gabriel.bori/Documents/automation/apiAutomation/gb-se-ts/node_modules/axios/lib/adapters/http.js :303)<br />.RedirectableRequest.emit()(node:events :390)<br />.RedirectableRequest.emit()(node:domain :475)<br />.Timeout.<anonymous>()(/Users/gabriel.bori/Documents/automation/apiAutomation/gb-se-ts/node_modules/follow-redirects/index.js :164)<br />.listOnTimeout()(node:internal/timers :557)<br />.processTimers()(node:internal/timers :500)<br /></pre>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-                            </td>
-                        </tr>
-
-                                </table>
-                            </td>
-                        </tr>
-
-                                </table>
-                            </td>
-                        </tr>
-                    <tr class="test-SKIPPED">
-
-                        <td width="50" class="step-icon">
-                            <a name="2"></a>
-                                <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
+                        <td width="90" class="step-icon">
+                            <a name="1-0-1"></a>
+                                <span style="margin-left: 60px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                    <span class="top-level-step">
-                                                Then he should get a wrong status code
+                                    <span class="nested-group-step">
+                                                Carlos ensures that the status of the last response does equal 401
                                         </span>
                                 <span class="evidence">
                                 </span>
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SKIPPED</span></td>
-                        <td width="100"><span class="top-level-step">0s</span></td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                <tr class="test-COMPROMISED">
+
+                                </table>
+                            </td>
+                        </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="1-1"></a>
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-1')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection1-1 success-icon"
+                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-1')"
+                                   style="display:block;">
+                                    <span class="nested-step">
+                                                Carlos buys an album by id
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-step">0.23s</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection1-1" class="step-table-nested" style="display:none;">
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="90" class="step-icon">
+                            <a name="1-1-0"></a>
+                                <span style="margin-left: 60px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
+                                                Carlos sends a POST request to '/albums/100'
+                                        </span>
+                                <span class="evidence">
+                                        <span class="piece-of-evidence">
+                    <span>
+                        <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
+                                data-target="#restModal-REST-7">
+                            REST Query
+                        </button>
+                    </span>
+                    <!-- Modal -->
+                    <div class="rest-query-details">
+                        <div class="collapse multi-collapse" id="restModal-REST-7">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4>Response</h4>
+                                        <p>URL: https://nodejs-qa-training.herokuapp.com/albums/100</p>
+                                        <p>Status code: 401</p>
+                                        <p>Content Type: application/x-www-form-urlencoded</p>
+                                        <h4>Request Headers</h4>
+                                        <pre>Accept: application/json,application/xml<br>Content-Type: application/x-www-form-urlencoded<br>User-Agent: axios/0.21.4</pre>
+                                        <h4>Response Headers</h4>
+                                        <pre>server: Cowboy<br>connection: close<br>x-powered-by: Express<br>content-type: application/json; charset=utf-8<br>content-length: 109<br>etag: W/&quot;6d-wewcjyqjzzE22ZBGim5iPDDh9oo&quot;<br>date: Thu, 11 Nov 2021 14:58:45 GMT<br>via: 1.1 vegur</pre>
+                                    <h4>Response Body</h4>
+                                        <pre>{<br>    &quot;errors&quot;: [<br>        {<br>            &quot;code&quot;: &quot;authentication_error&quot;,<br>            &quot;message&quot;: &quot;Invalid token&quot;<br>        }<br>    ],<br>    &quot;timestamp&quot;: &quot;2021-11-11T14:58:45.372Z&quot;<br>}</pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        </span>
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0.22s</span></td>
+                    </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+                <tr class="test-SUCCESS">
                         <td colspan="2"></td>
-                    <td width="130"><span class="top-level-step"><em>COMPROMISED</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>2.09s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.67s</em></span></td>
                 </tr>
 
             </table>
